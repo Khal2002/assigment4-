@@ -1,0 +1,214 @@
+* {
+  font-family: "Exo", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+.home {
+  padding-top: 100px;
+  width: 100%;
+  background-color: #fff085;
+  position: relative;
+}
+.content-home {
+  width: 60%;
+  margin: auto;
+}
+.home::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: #ffdc7d;
+  position: absolute;
+  right: 5%;
+  rotate: -45deg;
+  top: 10%;
+}
+.home::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: #e5d877;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  rotate: 12deg;
+}
+.nav {
+  width: 60%;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #ffffff;
+  position: fixed;
+  top: 3%;
+  border: 2px solid #000000;
+  border-radius: 15px;
+}
+.nav img {
+  width: 20px;
+}
+.links {
+  display: flex;
+  gap: 20px;
+}
+.links a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.links a:hover {
+  color: #ff7a50;
+}
+.text {
+  font-weight: 800;
+  font-size: 30px;
+}
+.text span {
+  color: #ff6900;
+}
+.subscribe button {
+  background-color: #ffd15b;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 10px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.subscribe button:hover {
+  transform: translate(4%, 8%);
+  cursor: pointer;
+}
+.first_section img {
+  width: 50px;
+}
+.first_section {
+  margin: 20px;
+}
+#TRENDING {
+  width: fit-content;
+  background-color: #000;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  box-shadow: 5px 5px black;
+  rotate: -5deg;
+}
+.left h1 {
+  font-size: 72px;
+  font-weight: 900;
+  text-shadow: 5px 3px black;
+}
+
+.left h2 {
+  font-size: 72px;
+  font-weight: 900;
+  text-shadow: 3px 3px #e7000b;
+  color: #e7000b;
+}
+.left h3 {
+  font-size: 72px;
+  font-weight: 900;
+  color: #155dfc;
+  text-shadow: 3px 3px #155dfc;
+}
+.box {
+  background-color: #ffffff;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  width: fit-content;
+  box-shadow: 3px 3px black;
+}
+.start_buttons {
+  display: flex;
+  margin: 15px;
+  gap: 30px;
+}
+.start {
+  background-color: black;
+  padding: 0 10px;
+  transition: 0.3s;
+  box-shadow: 5px 5px #000000;
+}
+.start button {
+  background-color: black;
+  border: none;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.watches {
+  padding: 0 10px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 3px solid black;
+  box-shadow: 5px 5px #000000;
+  transition: 0.3s;
+}
+.watches button {
+  background-color: #ffffff;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  padding: 10px;
+}
+
+.watches:hover {
+  transform: translate(5px, 5px);
+  box-shadow: none;
+}
+.start:hover {
+  transform: translate(5px, 5px);
+  box-shadow: none;
+}
+.first_section {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px auto;
+  gap: 20px;
+}
+.right {
+  width: 40%;
+}
+.imges {
+  width: 100%;
+  box-shadow: 5px 5px #000000;
+  border: 3px solid #000000;
+
+  rotate: 5deg;
+  position: relative;
+}
+.imges img {
+  width: 100%;
+}
+.imges::after {
+  content: "FEATURED";
+  width: 80px;
+  height: 20px;
+  background-color: #fb2c36;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  top: -15px;
+  rotate: 5deg;
+
+  right: -25px;
+  box-shadow: 3px 3px #000000;
+}
